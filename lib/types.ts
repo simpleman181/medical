@@ -1,0 +1,1 @@
+export type SecRecord={date:string;committee:string;drug:string;firm:string;application:string;recommendation:string;source:string};export type ApprovalRecord={date:string;drug:string;type:string;composition:string;dosage:string;indication:string;manufacturer:string;source:string};
