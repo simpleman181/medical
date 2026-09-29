@@ -1,0 +1,1 @@
+export function normalizeDrugName(v:string){return v.toLowerCase().replace(/[.,()]/g," ").replace(/\s+/g," ").trim()}export function splitCombination(v:string){return v.split(/\s*(?:\+|\/|,|\band\b)\s*/i).map(normalizeDrugName).filter(Boolean)}
